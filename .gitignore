@@ -2,7 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+#Don't archive the RFCs
+RFC-all/
+#Ignore generated PDF files
+*.pdf
+#Ignore pkl generated files
+*.pkl
+*.zip
 # C extensions
 *.so
 
