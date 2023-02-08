@@ -11,7 +11,7 @@ Run this:
 The script will take rfc4291.txt and generate a PDF file named rfc4291.pdf
 where the font used will be LiberationMono-Bold with a lateral margin 
 of 15 and a top and bottom margin of 20. For better results is strongly 
-adviced to used a monospaced font.
+adviced to use a monospaced font.
 
 
 Bulk converting files
