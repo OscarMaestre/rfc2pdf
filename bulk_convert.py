@@ -28,7 +28,7 @@ HELP="""bulk_convert.py <rfcs directory> <directory for PDFs> <TTF filename> <si
         The script will take all RFCS in RFC-all and put PDFs in PDF-Liberation-Mono
         where the font used will be LiberationMono-Bold with a lateral margin 
         of 15 and a top and bottom margin of 25. For better results is strongly 
-        adviced to used a monospaced font."""
+        adviced to use a monospaced font."""
 
 if __name__=="__main__":
     try:
