@@ -108,7 +108,7 @@ class PDF_RFC(object):
             self._pdf_object.cell(DONT_CARE_ABOUT_WIDTH, mm_per_line, line.rstrip(), border=NO_BORDER, align=ALIGNMENT_LEFT, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
 
-HELP="""rfc2pdf.py <rfc in plain text> <PDF output filename> <TTF filename> <side margins> <top_bottom_margin> <generate_bookmarks (use True or False).
+HELP="""rfc2pdf.py <rfc in plain text> <PDF output filename> <TTF filename> <side margins> <top_bottom_margin> <generate_bookmarks (use True or False)>.
     
     Example:
         ./rfc2pdf.py rfc4291.txt rfc4291.pdf LiberationMono-Bold.ttf 15 25 True

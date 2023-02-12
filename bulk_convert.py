@@ -23,14 +23,15 @@ def bulk_convert(rfcall_folder, results_folder, ttf_file, side_margin, top_margi
             print ("There was a error with "+rfc+" and the PDF couldn't be generated")
 
 
-HELP="""bulk_convert.py <rfcs directory> <directory for PDFs> <TTF filename> <side margins> <top_bottom_margin>.
+HELP="""bulk_convert.py <rfcs directory> <directory for PDFs> <TTF filename> <side margins> <top_bottom_margin> <generate_bookmarks (use True or False)>.
     
     Example:
         ./bulk_convert RFC-all PDF-Liberation-Mono LiberationMono-Bold.ttf 15 25
         
         The script will take all RFCS in RFC-all and put PDFs in PDF-Liberation-Mono
         where the font used will be LiberationMono-Bold with a lateral margin 
-        of 15 and a top and bottom margin of 25. For better results is strongly 
+        of 15 and a top and bottom margin of 25. The script will try to generate PDFs
+        with bookmarks. For better results is strongly 
         adviced to use a monospaced font."""
 
 if __name__=="__main__" and __package__ is None:
